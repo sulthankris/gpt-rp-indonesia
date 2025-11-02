@@ -14,7 +14,7 @@ NUM_HEADS = 8
 NUM_LAYERS = 6
 DROPOUT = 0.1
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-MODEL_SAVE_PATH = "my_small_model.pth"
+MODEL_SAVE_PATH = "final_model.pth"
 
 # --- Model Classes (Unchanged) ---
 class TokenAndPositionalEmbedding(nn.Module):
